@@ -1,0 +1,47 @@
+div {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  transition: width 2s, height 2s, transform 2s, border-radius 2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 40ms;
+  margin: 100px;
+  border-radius: 10%;
+}
+
+div:hover {
+  width: 300px;
+  height: 200px;
+  border-radius: 20%;
+  background-color: rgb(61, 86, 227);
+  transform: rotate(180deg);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 60px;
+  transition: width 2s, height 2s, transform 1.5s;
+  transition-timing-function: ease-in;
+}
+
+img:hover {
+  width: 200px;
+  height: 200px;
+  transform: rotate3d(1, 0, 1, 360deg);
+}
+
+h1 {
+  padding: 35px;
+  font-size: 1.2rem;
+  text-align: center;
+  transition: transform 1s, font-size 1s, color 3s;
+  transition-timing-function: linear;
+}
+
+h1:hover {
+  transform: rotate(180deg);
+  padding-bottom: 80px;
+  font-size: 3rem;
+  color: brown;
+}
